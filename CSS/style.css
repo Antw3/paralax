@@ -1,0 +1,98 @@
+@charset "UTF-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+}
+
+/*fondos*/
+.uno, .dos, .tres, .cuatro{
+	height: 1080px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0px;
+} 
+.uno{
+	background-image: url("../images/1.png");
+}
+.dos{
+	background-image: url("../images/2.png");
+}
+.tres{
+	background-image: url("../images/3.png");
+}
+
+.cuatro{
+	background-image: url("../images/4.png");
+}
+
+/* Personaje*/
+
+.personaje{
+	position: fixed;
+	z-index: 1;
+	background-image: url("../images/sirena.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+}
+
+.info1, .info2, .info3, .info4, .info5{
+	padding:10px;
+	width: 20%;
+	background: rgba(255,255,255,0.70);
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+}
+
+.info1{
+	position: absolute;
+	top: 900px;
+	left: 10%
+}
+
+.info2{
+	position: absolute;
+	top: 1200px;
+	right: 10%;
+}
+
+.info3{
+	position: absolute;
+	top: 2400px;
+	right: 10%;
+}
+
+.info4{
+	position: absolute;
+	top: 3200px;
+	right: 10%;
+}
+
+.info5{
+	position: absolute;
+	top: 3900px;
+	right: 10%;
+}
+.tri{
+width: 0;
+	height: 0;
+	text-indent: -9999px;
+	border-top: 20px solid #f09;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.triangulo{
+	position: absolute;
+	bottom: 5%;
+	width: 100%;
+} 
